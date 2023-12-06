@@ -32,7 +32,7 @@ body {
   border: 1px solid #444;
   border-width: 1px 2px 2px 1px;
   border-radius: 10px;
-  overflow-x: auto;
+  overflow-x: scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: none;

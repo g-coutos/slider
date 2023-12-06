@@ -51,6 +51,7 @@ p {
 .slider-children {
   min-width: 300px;
   box-sizing: border-box;
+  position: relative;
   flex: 1;
   height: 200px;
   display: flex;
@@ -59,8 +60,16 @@ p {
   border: 1px solid #444;
   border-radius: 5px;
   font-style: italic;
-  color: #fff;
-  background-image: url(/assets/img/gradient.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fff;
+  color: #ff6347;
+  z-index: 2;
+}
+
+.slider-children::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background-color: #444;
+  z-index: 1;
 }

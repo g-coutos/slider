@@ -40,7 +40,7 @@ while (position < max_scroll_left) {
   position += slider_children_width_value + slider_mom_gap_value;
 }
 
-console.log(slider_positions);
+console.log("slider_positions", slider_positions);
 
 window.addEventListener("resize", () => {
   max_scroll_left = slider_mom.scrollWidth - slider_mom.clientWidth;

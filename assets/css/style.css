@@ -60,7 +60,7 @@ p {
   border-radius: 5px;
   font-style: italic;
   color: #fff;
-  background-image: url("/assets/img/gradient.png");
+  background-image: url("assets/img/gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
